@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <img src="assets/images/logo.png" alt="Logo">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!--
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+        </div>
+      </div>
+    </nav>
+    <section class="height-full section-one section-yellow">
+      <div class="d-flex h-100 div-content-section first-content">
+        <!-- 
+                    d-flex é uma classe bootstrap predefinida para tornar 'display:flex';
+                    h-10 é uma classe bootstrap para tornar a altura da div 100% da view port;
+                  -->
+        <div class="align-self-center div-section-one">
+          <h1 class="title-section-one">First I wanted to be a veterinarian</h1>
+          <p class="subtitle-section-one">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type
+            also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <button type="button" class="btn btn-primary btn-section-one-contact mr-5">Contact Us</button>
+          <button type="button" class="btn btn-outline-light btn-section-one-service">Our Service</button>
+        </div>
+        <div class="align-self-center">
+          <img src="./assets/images/dog.png" alt="Dog" class="img-section-one">
+        </div>
+      </div>
+    </section>
+    <!--
+      Section Two
+    -->
+    <section class="height-full section-two">
+      <div class="d-flex col-12 h-100 div-content-section second-content"> <!--col-12 é tipo de display grid-->
+        <div class="col-6 align-self-center padding-first-col-section-two">
+          <h1 class="title-section-two">As a veterinarian and lover of animals</h1>
+          <p class="subtitle-section-two">It is a long established fact that a reader will be distracted by the readable
+            content of a page when
+            looking
+            at its layout.</p>
+          <button type="button" class="btn btn-primary btn-section-two-service mr-5 yellow-button">Our Service</button>
+        </div>
+        <div class="col-6 align-self-center position-relative"> <!--col-6 é um tipo de display grid-->
+          <div class="yellow-square-section-two"></div>
+          <div class="yellow-back-section-two">
+            <img src="./assets/images/dog2.png" alt="Dog two" class="img-section-two">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+      Section Three
+    -->
+    <section class="section-yellow">
+      <div class="div-content-section">
+        <div class="text-center pb-5">
+          <h1 class="title-section-three">As a veterinarian <br> and lover of animals</h1>
+          <p class="subtitle-section-three">
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking
+            at its layout.
+          </p>
+        </div>
+        <div class="d-flex col-12 content-bottom">
+          <div class="col text-web-center">
+            <div class="img-section-three">
+              <img src="./assets/images/veterinaria1.png" alt="Veterinaria 1">
+            </div>
+            <h1 class="title-img-section-three">Veterinarian</h1>
+            <p class="subtitle-img-section-three">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking
+              at its layout.
+            </p>
+          </div>
+          <div class="col text-web-center pb-5">
+            <div class="img-section-three">
+              <img src="./assets/images/veterinaria2.png" alt="Veterinaria 1">
+            </div>
+            <h1 class="title-img-section-three">Vacination Care</h1>
+            <p class="subtitle-img-section-three">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking
+              at its layout.
+            </p>
+          </div>
+          <div class="col text-web-center">
+            <div class="img-section-three">
+              <img src="./assets/images/veterinaria3.png" alt="Veterinaria 1">
+            </div>
+            <h1 class="title-img-section-three">Dental Care</h1>
+            <p class="subtitle-img-section-three">
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking
+              at its layout.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+      Section four
+    -->
+    <section class="section-four">
+      <div class="div-content-section">
+        <div class="text-center pt-5">
+          <h1 class="title-section-four">Recent Posts</h1>
+          <p class="subtitle-section-four">Lorem Ipsum available, but the majority have <br>
+            suffered alteration in some form.</p>
+        </div>
+        <div class="d-flex justify-content-center content-cards">
+          <div class="card card-section-four"> <!--Classe card do bootstrap-->
+            <img src="./assets/images/vec1.png" width="250px" alt="">
+            <div class="all-texts-card">
+              <p class="title-card">As a veterinarian and lover of animals</p>
+              <p class="date-card">FEBRUARY 09, 2023</p>
+              <p class="text-card">Lorem Ipsum available, but the majority have
+                suffered alteration in some words which look.</p>
+              <p class="read-more-card">Read More+</p>
+            </div>
+          </div>
+          <div class="card card-section-four middle-card"> <!--Classe card do bootstrap-->
+            <img src="./assets/images/vec2.png" width="250px" alt="">
+            <div class="all-texts-card">
+              <p class="title-card">As a veterinarian and lover of animals</p>
+              <p class="date-card">FEBRUARY 09, 2023</p>
+              <p class="text-card">Lorem Ipsum available, but the majority have
+                suffered alteration in some words which look.</p>
+              <p class="read-more-card">Read More+</p>
+            </div>
+          </div>
+          <div class="card card-section-four"> <!--Classe card do bootstrap-->
+            <img src="./assets/images/vec3.png" width="250px" alt="">
+            <div class="all-texts-card">
+              <p class="title-card">As a veterinarian and lover of animals</p>
+              <p class="date-card">FEBRUARY 09, 2023</p>
+              <p class="text-card">Lorem Ipsum available, but the majority have
+                suffered alteration in some words which look.</p>
+              <p class="read-more-card">Read More+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+      Section five
+    -->
+    <section>
+      <div class="div-img-section-five">
+        <div class="div-yellow-section-five">
+          <div class="div-content-section div-items-section-five">
+            <div class="div-padding-section-five">
+              <img src="./assets/images/Icon1.png" alt="">
+              <p class="number-section-five">+34793</p>
+              <p class="text-section-five">Happy Clients</p>
+            </div>
+            <div class="div-padding-section-five">
+              <img src="./assets/images/Icon2.png" alt="">
+              <p class="number-section-five">+45382</p>
+              <p class="text-section-five">Departments</p>
+            </div>
+            <div class="div-padding-section-five">
+              <img src="./assets/images/Icon3.png" alt="">
+              <p class="number-section-five">+54762</p>
+              <p class="text-section-five">Vaccnations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+      Section six
+    -->
+    <section class="section-gray">
+      <div class="div-content-section">
+        <div class="d-flex col-12">
+          <div class="col">
+            <p class="title-img-section-three">About</p>
+            <a href="" class="link-style-section-six">History</a>
+            <a href="" class="link-style-section-six">Our Team</a>
+            <a href="" class="link-style-section-six">Brand Guidelines</a>
+            <a href="" class="link-style-section-six">Terms & Conditions</a>
+            <a href="" class="link-style-section-six">Privacy Policy</a>
+          </div>
+          <div class="col">
+            <p class="title-img-section-three">Services</p>
+            <a href="" class="link-style-section-six">How to Order</a>
+            <a href="" class="link-style-section-six">Our Products</a>
+            <a href="" class="link-style-section-six">Order Status</a>
+            <a href="" class="link-style-section-six">Promo</a>
+            <a href="" class="link-style-section-six">Payment Method</a>
+          </div>
+          <div class="col-6 text-end">
+            <p class="title-img-section-three">Deixe seu e-mail</p>
+            <p class="text-email-section-six">Deixe seu email para nossa equipe entrar em contato, fique atento a sua caixa de entrada, spam ou lixo eletrônico.</p>
+            <div class="d-flex justify-content-end">
+              <input type="email" name="email" id="email" class="input-section-six">
+              <button class="button-section-six"><img src="./assets/images/paper-plane.png" alt="send"></button>
+            </div>
+            <div class="d-flex justify-content-end mt-4">
+              <button class="social-section-six"><img src="./assets/images/instagram.png" alt="instagram"></button>
+              <button class="social-section-six"><img src="./assets/images/facebook.png" alt="facebook"></button>
+              <button class="social-section-six"><img src="./assets/images/twitter.png" alt="twitter"></button>
+              <button class="social-section-six"><img src="./assets/images/whatsapp.png" alt="whatsapp"></button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
